@@ -19,11 +19,12 @@ const SumCalculator = () => {
 
     return (
         <div>
+        <h1>Sum Calculator</h1>
         <input 
             type="number"
             onChange={handleChange}
             value={input} />
-        <h1>Sum: {sum}</h1>
+        <p>Sum: {sum}</p>
         </div>
     )
 }
